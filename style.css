@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Rokkitt", serif;
+}
+
+body {
+    padding-left: 30px;
+    color: #222222;
+    background-color: #f1f1f1;
+}
+
+/* navbar-styles */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    margin-bottom: 89px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    width: 377px;
+    margin-left: -158px;
+    cursor: pointer;
+    height: 64px;
+}
+
+.logo>h1 {
+    margin-left: 15px;
+    font-size: 29px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    height: 67px;
+    width: 650px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.nav-items>li>a {
+    text-decoration: none;
+    margin-left: 28px;
+    color: #2935A7;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.3s all ease;
+}
+
+.nav-items>li>a:hover {
+    font-size: 21px;
+    transition: 0.3s all ease;
+}
+
+.nav-items>li {
+    list-style: none;
+}
+
+#search {
+    font-size: 48px;
+    cursor: pointer;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-top: -13px;
+    transition: 0.3s all ease;
+}
+
+#search:hover {
+    font-size: 32px;
+    transition: 0.3s all ease;
+}
+#burger {
+    font-size: 31px;
+    display: none;
+}
+
+/* first section styles */
+
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 448px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.sectinfo {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 132px;
+}
+
+.guit {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.desc {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/* second section styles */
+
+#section2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 72px 0;
+}
+
+.categories-imgs {
+    max-width: 1451px;
+    height: 396px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.card1 {
+    transition: 0.3s all ease;
+    border: 2px solid #585858;
+    height: 397px;
+    width: 294px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.card1>img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card1>p {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+/* third section styles */
+
+#section3>h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.bigdiv {
+    height: 1600px;
+    max-width: 1456px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card2 {
+    border: 2px solid #585858;
+    height: 484px;
+    width: 294px;
+    transition: 0.3s all ease;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.card2>img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card2>p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card2>h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.seemorebtn {
+    background-color: black;
+    margin: 73px 0 24px 701px;
+    color: white;
+    height: 48px;
+    width: 102px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.seemorebtn:hover {
+    background-color: #2935A7;
+    transition: 0.3s all ease;
+    scale: 1.1;
+}
+
+/* fourth section styles */
+.bigdiv2 {
+    height: 524px;
+    max-width: 1456px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card3 {
+    border: 2px solid #585858;
+    height: 513px;
+    width: 294px;
+    transition: 0.3s all ease;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.card3>img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.section4>h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.card3>p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card3>h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.discount {
+    position: relative;
+    top: 42px;
+    width: 40px;
+    left: 246px;
+    font-weight: 500;
+}
+
+.card3:hover {
+    transform: translateY(-10px);
+    transition: 0.3s all ease;
+}
+
+.card2:hover {
+    transform: translateY(-10px);
+    transition: 0.3s all ease;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+    transition: 0.3s all ease;
+}
+
+/* fifth section styles */
+.section5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 997px;
+    max-width: 1456px;
+    margin-top: 189px;
+}
+
+.section5>h1 {
+    font-size: 48px;
+    font-weight: 800;
+    height: 55px;
+}
+
+.bigdiv4,
+.bigdiv3 {
+    max-width: 610px;
+    height: 634px;
+    margin: 121px 82px 0 -27px;
+}
+
+.bigdiv4>h2,
+.bigdiv3>h2 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.bigdiv4>p,
+.bigdiv3>p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* footer styles */
+footer {
+    max-width: 102%;
+    height: 310px;
+    background-color: #A9AEDC;
+    margin-left: -30px;
+}
+
+.ftinfo {
+    width: 330px;
+    height: 175px;
+    position: relative;
+    top: 55px;
+    left: 110px;
+}
+
+.ftinfo>h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52.37px;
+    text-align: left;
+}
+
+/* imported icons */
+#ig,
+#fb,
+#yt,
+#tw {
+    font-size: 35px;
+    margin-right: 12px;
+    line-height: 56px;
+    transition: 0.2s all ease-out;
+}
+
+/* icon hovers */
+#ig:hover {
+    font-size: 38px;
+    transition: 0.2s all ease-out;
+    color: #dd3f3c;
+}
+
+#fb:hover {
+    font-size: 38px;
+    transition: 0.2s all ease-out;
+    color: #2935A7;
+}
+
+#yt:hover {
+    font-size: 38px;
+    transition: 0.2s all ease-out;
+    color: red;
+}
+
+#tw:hover {
+    font-size: 38px;
+    transition: 0.2s all ease-out;
+    color: #1DA1F2;
+}
+
+.list {
+    width: 622px;
+    height: 99px;
+    margin-top: -52px;
+    margin-left: 758px;
+}
+
+footer>li {
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 52.37px;
+    color: #222222;
+    margin-left: 20px;
+    transition: 0.3s all ease;
+}
+
+li>a:hover {
+    text-decoration: underline;
+    color: #2935A7;
+    transition: 0.3s all ease;
+}
