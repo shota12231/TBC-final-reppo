@@ -143,21 +143,16 @@ nav {
 }
 
 .card1 {
-    border: 2px solid #b0acac;
-    height: 397px;
+    height: 416px;
     width: 294px;
     background-color: white;
-    border-radius: 12px;
 }
 
-.card1>img {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
 
 .card1>p {
     font-size: 32px;
     font-weight: 500;
+    margin-top: 22px;
 }
 
 /* third section styles */
@@ -178,17 +173,11 @@ nav {
 }
 
 .card2 {
-    border: 2px solid #b0acac;
     height: 484px;
     width: 294px;
     background-color: white;
-    border-radius: 12px;
 }
 
-.card2>img {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
 
 .card2>p {
     font-size: 20px;
@@ -230,17 +219,11 @@ nav {
 }
 
 .card3 {
-    border: 2px solid #b0acac;
-    height: 513px;
+    height: 508px;
     width: 294px;
     background-color: white;
-    border-radius: 12px;
 }
 
-.card3>img {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
 
 #section4>h1 {
     font-size: 48px;
