@@ -18,6 +18,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
     background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 #logo {
@@ -291,7 +294,7 @@ footer {
 
     .ftinfo {
         margin-bottom: 30px;
-        margin-right: -100px;
+        margin-right: -90px;
     }
 
     footer {
