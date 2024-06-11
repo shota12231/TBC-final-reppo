@@ -81,7 +81,6 @@ header {
 
 #section1 {
     max-width: 100%;
-    border: 2px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -90,7 +89,6 @@ header {
 
 .secinfo {
     max-width: 511px;
-    border: 2px solid black;
     text-align: center;
     font-size: 28px;
     display: flex;
@@ -118,7 +116,6 @@ header {
 
 .categories-imgs {
     max-width: 1516px;
-    height: 396px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -150,11 +147,10 @@ header {
 }
 
 .bigdiv {
-    height: 1600px;
     max-width: 1456px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
 }
@@ -163,8 +159,8 @@ header {
     height: 484px;
     width: 294px;
     background-color: white;
+    margin-bottom: 30px;
 }
-
 
 .card2>p {
     font-size: 20px;
@@ -180,28 +176,27 @@ header {
 
 .seemorebtn {
     background-color: black;
-    margin: 73px 0 24px 701px;
     color: white;
     height: 48px;
     width: 102px;
     border-radius: 12px;
     cursor: pointer;
     transition: 0.3s all ease;
+    margin: 97px;
 }
 
 .seemorebtn:hover {
-    background-color: #2935A7;
+    background: #1D2575;
     transition: 0.3s all ease;
     scale: 1.1;
 }
 
 /* fourth section styles */
 .bigdiv2 {
-    height: 524px;
     max-width: 1456px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0 auto;
 }
@@ -210,6 +205,7 @@ header {
     height: 508px;
     width: 294px;
     background-color: white;
+    margin-bottom: 30px;
 }
 
 
@@ -241,38 +237,44 @@ header {
 
 
 /* fifth section styles */
-.section5 {
+
+#section5 {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 997px;
-    max-width: 1456px;
-    margin-top: 189px;
+    flex-direction: column;
+    max-width: 100%;
 }
 
-.section5>h1 {
+#section5>h1 {
     font-size: 48px;
     font-weight: 800;
-    height: 55px;
+    margin: 40px;
+    height: 50px;
 }
 
-.bigdiv4,
-.bigdiv3 {
-    max-width: 610px;
-    height: 634px;
-    margin: 121px 82px 0 -27px;
+.bigdiv-blogs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
 }
 
-.bigdiv4>h2,
-.bigdiv3>h2 {
+.blogdiv {
+    width: 60vw;
+    margin-bottom: 50px;
+}
+
+.blogdiv>img {
+    width: 100%;
+}
+
+.blogdiv>h2 {
     font-size: 20px;
     font-weight: 800;
     line-height: 40px;
 }
 
-.bigdiv4>p,
-.bigdiv3>p {
+.blogdiv>p {
     font-size: 20px;
     font-weight: 400;
 }
@@ -280,7 +282,7 @@ header {
 
 /* footer styles */
 footer {
-    max-width: 102%;
+    max-width: 103%;
     height: 310px;
     background-color: #A9AEDC;
     margin-left: -30px;
@@ -292,6 +294,7 @@ footer {
     position: relative;
     top: 55px;
     left: 110px;
+    margin-bottom: 30px;
 }
 
 .ftinfo>h1 {
@@ -368,7 +371,7 @@ li>a:hover {
 /* footer styles */
 
 footer {
-    max-width: 102%;
+    max-width: 104%;
     height: 350px;
     background-color: #A9AEDC;
     display: flex;
@@ -455,7 +458,7 @@ footer {
 
     .ftinfo {
         margin-bottom: 30px;
-        margin-right: -90px;
+        margin-right: 65px;
     }
 
     footer {
@@ -473,4 +476,36 @@ footer {
         margin: auto;
     }
 
+}
+
+/* responsive  */
+@media only screen and (max-width: 1185px) {
+    .card1 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1248px) {
+    .bigdiv-blogs {
+        flex-direction: column;
+    }
+
+    .blogdiv {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    #section1 {
+        flex-direction: column;
+    }
+
+    .secinfo {
+        color: white;
+        font-size: 34px;
+        position: absolute;
+        display: flex;
+        margin: 0 11rem ;
+    }
 }
