@@ -252,7 +252,7 @@ header {
 }
 
 .bigdiv-blogs {
-    width: 100%;
+    width: 94%;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -506,6 +506,6 @@ footer {
         font-size: 34px;
         position: absolute;
         display: flex;
-        margin: 0 11rem ;
+        margin: 0 11rem;
     }
 }

@@ -131,7 +131,7 @@ button {
     font-size: 15px;
 }
 
-.login>input {
+.login>.inputt {
     border: 2px solid #D4D3D3;
     width: 100%;
     height: 59px;
@@ -139,6 +139,11 @@ button {
     margin-bottom: 8px;
     padding: 19px;
     box-sizing: border-box;
+}
+
+.reme {
+    display: flex;
+    flex-direction: row;
 }
 
 .login>button {
