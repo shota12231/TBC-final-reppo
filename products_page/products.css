@@ -73,6 +73,9 @@ header {
     color: #7884f9;
     transition: 0.3s all ease-in;
 }
+#products {
+    text-decoration: underline;
+}
 
 /* section1 styles */
 .mostlyh1 {
@@ -84,7 +87,6 @@ header {
 
 #section1 {
     max-width: 1300px;
-    border: 2px solid black;
     margin: 40px auto;
     display: flex;
 }
@@ -95,7 +97,6 @@ header {
 }
 
 .product_info {
-    border: 2px solid black;
     width: 600px;
     height: 100%;
     display: flex;
@@ -105,7 +106,7 @@ header {
 
 .info {
     max-width: 219px;
-    border: 2px solid black;
+
 }
 
 .info>h1 {
@@ -123,7 +124,6 @@ header {
 }
 
 .prodimages3 {
-    border: 2px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -356,9 +356,7 @@ footer {
 
     .info {
         position: relative;
-        left: -611px;
-        top: -15px;
-        width: 100%;
+        left: -67vw;
     }
 
     #spc {

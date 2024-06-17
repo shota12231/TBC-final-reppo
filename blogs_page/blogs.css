@@ -74,7 +74,9 @@ header {
     color: #7884f9;
     transition: 0.3s all ease-in;
 }
-
+#blogs {
+    text-decoration: underline;
+}
 /* section1 styles */
 
 .section1 {

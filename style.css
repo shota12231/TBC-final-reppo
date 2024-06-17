@@ -76,6 +76,9 @@ header {
     transition: 0.3s all ease-in;
 }
 
+#home {
+    text-decoration: underline;
+}
 
 /* first section styles */
 
